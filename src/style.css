@@ -1,12 +1,11 @@
 body {
   font-family: "Smooch Sans", sans-serif;
   margin: 0;
-  background-color: rgb(36, 33, 41);
+  background-color: #ffffff;
 }
 
 .main-game {
   height: 100vh;
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +29,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: absolute;
   border-radius: 100%;
   background-color: #242424;
   height: 300px;
@@ -85,10 +84,14 @@ body {
   background-color: #2e82ff;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 15px;
-  border-top-left-radius: 50px;
   border-top-right-radius: 15px;
   margin-bottom: 40px;
   margin-right: 40px;
+}
+
+.blue:hover {
+  transform: scale(1.01, 1.01);
+  transition-duration: 0.5s;
 }
 
 .yellow {
@@ -96,10 +99,14 @@ body {
   background-color: #fff12e;
   border-bottom-left-radius: 100%;
   border-top-left-radius: 15px;
-  border-top-right-radius: 50px;
   border-bottom-right-radius: 15px;
   margin-bottom: 40px;
   margin-left: 40px;
+}
+
+.yellow:hover {
+  transform: scale(1.01, 1.01);
+  transition-duration: 0.5s;
 }
 
 .red {
@@ -108,9 +115,13 @@ body {
   border-top-right-radius: 100%;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 50px;
   margin-top: 40px;
   margin-right: 40px;
+}
+
+.red:hover {
+  transform: scale(1.01, 1.01);
+  transition-duration: 0.5s;
 }
 
 .green {
@@ -118,12 +129,20 @@ body {
   background-color: #2eff62;
   border-top-left-radius: 100%;
   border-top-right-radius: 15px;
-  border-bottom-right-radius: 50px;
   border-bottom-left-radius: 10px;
   margin-top: 40px;
   margin-left: 40px;
 }
 
+.green:hover {
+  transform: scale(1.01, 1.01);
+  transition-duration: 0.5s;
+}
+
 .selected {
   opacity: 0.5;
+}
+
+.footer {
+  text-align: center;
 }

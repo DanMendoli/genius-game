@@ -99,11 +99,14 @@ let gameOver = () => {
 
 //start game function
 let startGame = () => {
-    gameMessage.textContent = 'Bem vindo. Prepare-se para iniciar um novo jogo.';
-    score = 0;
-    order = [];
-    clickedOrder = [];
-    nextLevel();
+    setTimeout(() => {
+        score = 0;
+        order = [];
+        clickedOrder = [];
+        nextLevel();
+    }, 3000);
+    
+    gameMessage.textContent = 'Prepare-se para iniciar um novo jogo.'; 
 }
 
 //click events
