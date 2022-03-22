@@ -1,7 +1,7 @@
 
 # Genius Clone
 
-## [JOGUE AQUI]()
+## [JOGUE AQUI](https://genius-clone.netlify.app/)
 
 ![Tela](/src/images/screen.png)
 
